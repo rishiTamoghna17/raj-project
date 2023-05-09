@@ -10,10 +10,10 @@ export default function Hero(props) {
           src={props.heroImage}
         />
         <div className="hero-text">
-            <h1>Professional Technology Assistance</h1>
-            <p>We make technology accessible! </p>
-            <a href="/">
-                Book Now
+            <h1>{props.title}</h1>
+            <p>{props.text} </p>
+            <a href={props.url} className={props.btnClass}>
+                {props.btlText}
             </a>
         </div>
       </div>
