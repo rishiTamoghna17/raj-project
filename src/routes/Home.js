@@ -14,7 +14,7 @@ export default function Home() {
         title="Professional Technology Assistance"
         text="We make technology accessible!"
         btlText = "Book Now"
-        url = "/"
+        url = "/booking"
         btnClass = "show"
       />
       <Footer/>
