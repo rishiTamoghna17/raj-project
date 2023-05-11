@@ -3,6 +3,7 @@ import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
 import AboutImage from "../assets/jay-wennington-loAgTdeDcIU-unsplash.jpg";
 import Footer from "../components/footer /Footer";
+import ContactUs from "../components/contactUs/ContactUs";
 export default function Contact() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Contact() {
         // url = "/"
         btnClass="hide"
       />
+     <ContactUs/>
       <Footer/>
     </>
   )
