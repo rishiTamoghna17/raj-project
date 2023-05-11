@@ -20,6 +20,7 @@ export default function Training() {
         // url = "/"
         btnClass="hide"
       />
+      
       <CourseCards/>
       <TeamCard team={team}/>
       <Footer/>

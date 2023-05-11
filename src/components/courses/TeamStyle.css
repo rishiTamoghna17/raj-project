@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
   }
   
   .card {
@@ -11,6 +12,7 @@
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 300px;
+    
   }
   
   .card:hover .card-image img {
@@ -80,18 +82,4 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: neon 1.5s ease-in-out infinite alternate;
   }
-  
-  /* @keyframes neon {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fbb034, 0 0 40px #fbb034,
-        0 0 70px #fbb034, 0 0 80px #fbb034, 0 0 100px #fbb034;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffdd00, 0 0 20px #ffdd00,
-        0 0 35px #ffdd00, 0 0 40px #ffdd00, 0 0 50px #ffdd00;
-    }
-  } */
-  
-  

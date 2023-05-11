@@ -3,6 +3,8 @@ import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
 import AboutImage from "../assets/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
 import Footer from "../components/footer /Footer";
+import  {testimonial}  from "../assets/dummydata"
+import Testimonial from '../components/testimonial/Testimonial';
 
 export default function Home() {
   return (
@@ -17,6 +19,7 @@ export default function Home() {
         url = "/booking"
         btnClass = "show"
       />
+      <Testimonial testimonial={testimonial}/>
       <Footer/>
     </>
   );
