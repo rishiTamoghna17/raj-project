@@ -5,6 +5,7 @@ import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import About from "./routes/About";
 import Booking from "./routes/Booking";
+import Training from "./routes/Training";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/booking" element={<Booking />} />
+        <Route path="/training" element={<Training />} />
       </Routes>
     </div>
   );
