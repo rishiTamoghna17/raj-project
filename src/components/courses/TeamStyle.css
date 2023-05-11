@@ -1,0 +1,97 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .card:hover .card-image img {
+    transform: scale(1.1);
+  }
+  
+  .card-image {
+    position: relative;
+  }
+  
+  .card-image img {
+    display: block;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    width: 100%;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .card-content p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .teamcard {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    background: linear-gradient(to right, #fbb034, #ffdd00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: neon 1.5s ease-in-out infinite alternate;
+  }
+  
+  /* @keyframes neon {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fbb034, 0 0 40px #fbb034,
+        0 0 70px #fbb034, 0 0 80px #fbb034, 0 0 100px #fbb034;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffdd00, 0 0 20px #ffdd00,
+        0 0 35px #ffdd00, 0 0 40px #ffdd00, 0 0 50px #ffdd00;
+    }
+  } */
+  
+  
