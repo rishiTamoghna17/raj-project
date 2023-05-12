@@ -18,8 +18,8 @@ export default function Booking() {
         // url = "/"
         btnClass="hide"
       />
-      <FormComponent/>
-      <Footer/>
+      <FormComponent />
+      <Footer />
     </>
   );
 }

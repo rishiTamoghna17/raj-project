@@ -17,7 +17,7 @@ export default function Service() {
         // url = "/"
         btnClass="hide"
       />
-      <Footer/>
+      <Footer />
     </>
   );
 }

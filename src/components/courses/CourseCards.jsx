@@ -1,6 +1,6 @@
 import React from "react";
 import "./Courses.css";
-import { coursesCard } from "../../assets/dummydata"
+import { coursesCard } from "../../assets/dummydata";
 
 export default function CourseCards() {
   return (

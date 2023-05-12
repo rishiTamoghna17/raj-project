@@ -45,10 +45,10 @@ const ContactUs = () => {
           <div className="follow">
             <h3>Follow Us Here</h3>
             <a href="/">
-                <i className="fa-brands fa-facebook"></i>
-                <i className="fa-brands fa-instagram"></i>
-                <i className="fa-brands fa-twitter"></i>
-                <i className="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-facebook"></i>
+              <i className="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
           </div>
         </div>

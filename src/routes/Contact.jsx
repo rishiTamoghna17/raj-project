@@ -7,7 +7,7 @@ import ContactUs from "../components/contactUs/ContactUs";
 export default function Contact() {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <Hero
         cName="hero-mid"
         heroImage={AboutImage}
@@ -17,9 +17,8 @@ export default function Contact() {
         // url = "/"
         btnClass="hide"
       />
-     <ContactUs/>
-      <Footer/>
+      <ContactUs />
+      <Footer />
     </>
-  )
+  );
 }
-

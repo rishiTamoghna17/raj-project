@@ -17,7 +17,7 @@ export default function About() {
         // url = "/"
         btnClass="hide"
       />
-      <Footer/>
+      <Footer />
     </>
   );
 }

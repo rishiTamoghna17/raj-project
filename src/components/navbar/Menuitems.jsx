@@ -21,7 +21,7 @@ export const MenuItems = [
     title: "Training",
     url: "/training",
     cName: "nav-links",
-    icon: "fa-solid fa-dumbbell"
+    icon: "fa-solid fa-dumbbell",
   },
   {
     title: "Contact",

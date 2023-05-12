@@ -1,102 +1,101 @@
 .contacts {
-    background-color: #f8f8f8;
-  }
-  
-  .contacts .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 80px 40px;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  }
-  .contacts .left iframe {
-    border-radius: 20px;
-  }
-  
-  .contacts .right {
-    flex-basis: calc(100% - 600px);
-    max-width: calc(100% - 600px);
-    margin-bottom: 40px;
-  }
-  
-  .contacts h1 {
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .contacts p {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 40px;
-    color: #777;
-  }
-  
-  /* .contacts .items {
+  background-color: #f8f8f8;
+}
+
+.contacts .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.contacts .left iframe {
+  border-radius: 20px;
+}
+
+.contacts .right {
+  flex-basis: calc(100% - 600px);
+  max-width: calc(100% - 600px);
+  margin-bottom: 40px;
+}
+
+.contacts h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contacts p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #777;
+}
+
+/* .contacts .items {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   }
    */
-  .contacts .box {
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contacts .box h4 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .contacts .box p {
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 0;
-    color: #777;
-  }
-  
-  .contacts h3 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .contacts span {
-    font-size: 16px;
-    font-weight: 400;
-    color: #777;
-  }
+.contacts .box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
 
-  .follow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-  }
-  
-  .follow h3 {
-    margin-bottom: 1rem;
-  }
-  
-  .follow a i {
-    font-size: 2rem;
-    color: #555;
-    margin: 0 1rem;
-    transition: color 0.3s ease;
-  }
-  
-  .follow a i:hover {
-    color: #007bff;
-  }
-  
+.contacts .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contacts .box p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #777;
+}
+
+.contacts h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contacts span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.follow h3 {
+  margin-bottom: 1rem;
+}
+
+.follow a i {
+  font-size: 2rem;
+  color: #555;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.follow a i:hover {
+  color: #007bff;
+}

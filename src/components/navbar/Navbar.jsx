@@ -3,10 +3,10 @@ import { MenuItems } from "./Menuitems";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 export default class Navbar extends Component {
-  state = {clicked:false}
-  handleclick = ()=>{
-    this.setState({clicked:!this.state.clicked})
-  }
+  state = { clicked: false };
+  handleclick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
   render() {
     return (
       <nav className="NavberItems">
@@ -18,7 +18,7 @@ export default class Navbar extends Component {
           ></i>
         </div>
 
-        <u1 className={this.state.clicked?"nav-menu active":"nav-menu"}>
+        <u1 className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
           {MenuItems.map((items, index) => {
             return (
               <li key={index}>
